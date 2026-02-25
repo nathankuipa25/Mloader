@@ -1,4 +1,4 @@
-```markdown
+
 # Mloader - Smart Kivy/KivyMD KV Loader
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
@@ -101,4 +101,3 @@ MIT © Nathan R.K
 ## Support
 
 If you find mloader helpful, consider starring the repository or sharing it with other Kivy developers!
-```
