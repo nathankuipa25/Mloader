@@ -1,4 +1,3 @@
-by
 # Mloader - Smart Kivy/KivyMD KV Loader
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
