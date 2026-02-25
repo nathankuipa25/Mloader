@@ -92,7 +92,7 @@ project/
 
 ## Contributing
 
-Found a bug or have a feature request? Please open an issue on [GitHub](https://github.com/yourusername/mloader).
+Found a bug or have a feature request? Please open an issue on [GitHub](https://github.com/nathankuipa25/Mloader).
 
 ## License
 
