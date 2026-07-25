@@ -1,46 +1,23 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "mloader"
 version = "0.1.0"
-description = "Smart KV file loader for Kivy/KivyMD widgets - auto-detects and loads matching .kv files"
+description = "Your Mloader description"
 readme = "README.md"
+license = {text = "MIT"}   # or your license
 authors = [
-    {name = "Nathan R.K", email = "nathankuipa44@gmail.com"},
+    {name = "Nathan Kuipa", email = "nathankuipa44@email.com"}
 ]
-license = {text = "MIT"}
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
-    "Programming Language :: Python :: 3.7",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Framework :: Kivy",
-]
-keywords = ["kivy", "kivymd", "kvlang", "loader", "widget"]
-requires-python = ">=3.6"
-dependencies = [
-    "kivy>=2.0.0",
-]
+dependencies = []          # add your dependencies, e.g. ["requests>=2.0"]
+requires-python = ">=3.8"
 
 [project.urls]
-Homepage = "https://github.com/nathankuipa25/Mloader/"
+Homepage = "https://github.com/nathankuipa25/Mloader"
 Repository = "https://github.com/nathankuipa25/Mloader.git"
-BugTracker = "https://github.com/nathankuipa25/Mloader/issues"
 
-[project.optional-dependencies]
-dev = ["pytest", "twine", "build"]
-
+# Optional: tell setuptools where to find packages (default works)
 [tool.setuptools.packages.find]
-include = ["mloader*"]
-
-[tool.setuptools.dynamic]
-version = {attr = "mloader.__version__"}
+where = ["."]              # searches in the current directory
